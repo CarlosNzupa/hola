@@ -1,0 +1,27 @@
+<ion-view title="Radio" hide-nav-bar="true" id="page3" style="">
+  <ion-content padding="false" class="manual-ios-statusbar-padding" scroll="false">
+     <div class="card">
+   <div class="item item-avatar">
+      <img src="http://www.kope.es/fotos/rock.jpg">
+      <h2>Patrocinadores</h2>
+   </div>
+
+   <div class="item item-body">
+      <img class="full-image" src="http://i0.wp.com/imagenesconmovimiento.net/wp-content/uploads/2014/02/imagenes-con-movimiento-rock-7.gif">
+      
+</div>      <div style="margin: 0px; line-height: 250px; background-color: rgb(232, 235, 239); text-align: center;">
+        <i class="icon ion-image" style="font-size: 64px; color: rgb(136, 136, 136); vertical-align: middle;"></i>
+      </div>
+      <div>
+        <body>
+    <audio id="stream" controls preload="none" autoplay style="width: 355px;">
+<source src="http://192.99.6.50:9876/;" type="audio/mpeg">
+</audio>
+<script>
+var audio = document.getElementById('stream');
+audio.volume = 0.5;
+</script>
+      </div>
+    </div>
+  </ion-content>
+</ion-view>
